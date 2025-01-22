@@ -1,0 +1,15 @@
+{
+    "projectName": "Arithmetics",
+    "languages": [{
+        "id": "arithmetics",
+        "grammar": "src/language/arithmetics.langium",
+        "fileExtensions": [".arithmetics"],
+        "textMate": {
+            "out": "syntaxes/arithmetics.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "src/syntaxes/arithmetics.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
